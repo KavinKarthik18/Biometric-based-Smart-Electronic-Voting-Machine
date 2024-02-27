@@ -12,16 +12,15 @@ The SEVM project aims to revolutionize traditional paper-based voting systems by
 6. Breadboard
 7. Fingerprint Sensor (R307)
 
-##Project Description (SOFTWARE):
-
-##Libraries Used:
+## Project Description (SOFTWARE):
+## Libraries Used:
 
 1. Wire.h: This library is used for I2C communication.
 2. LiquidCrystal_I2C.h: This library allows easy interfacing with I2C LCD displays.
 3. Adafruit_Fingerprint.h: This library facilitates communication with the Adafruit fingerprint sensor.
 4. SoftwareSerial.h: This library enables software serial communication for the fingerprint sensor since the Arduino Uno has only one hardware serial port.
 
-##Functions used:
+## Functions used:
 1. enrollFingerprint(): Initiates the fingerprint enrollment process for voters.
 2. getFingerprintEnroll(): Manages the step-by-step enrollment process for fingerprint data storage.
 3. checkFingerprint(): Verifies if a fingerprint matches any enrolled fingerprint, ensuring each voter can cast only one vote.
