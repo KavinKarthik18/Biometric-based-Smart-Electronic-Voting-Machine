@@ -331,6 +331,7 @@ uint8_t getFingerprintEnroll() {
     return p;
   }
 
+  //to check if fingerprint data received or not
   Serial.print("ID "); Serial.println(id);
   p = finger.storeModel(id);
   if (p == FINGERPRINT_OK) {
